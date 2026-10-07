@@ -39,7 +39,7 @@ df_vintage, df_issue, df_retirement_cancellation = clean_data(df, column_list, s
 df_project, df_vintage, df_issue, df_retirement_cancellation = structure_data(df_vintage, df_issue, df_retirement_cancellation, column_list, start_year, end_year)
 
 # filter data
-q_expression = "Year >= 2016"
+q_expression = "Year >= 2016 & Year <= 2025"
 df_vintage = df_vintage.query(q_expression)
 df_issue = df_issue.query(q_expression)
 df_retirement_cancellation = df_retirement_cancellation.query(q_expression)
