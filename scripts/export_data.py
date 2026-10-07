@@ -30,13 +30,13 @@ column_list = [
     "ICVCM CCP",
     "Verra CCB"
 ]
+start_year = 1996
+end_year = 2026
 
-df_vintage, df_issue, df_retirement_cancellation = clean_data(df, column_list, 1996, 2026)
+df_vintage, df_issue, df_retirement_cancellation = clean_data(df, column_list, start_year, end_year)
 
 # structure data
-df_vintage = structure_data(df_vintage, column_list)
-df_issue = structure_data(df_issue, column_list)
-df_retirement_cancellation = structure_data(df_retirement_cancellation, column_list)
+df_project, df_vintage, df_issue, df_retirement_cancellation = structure_data(df_vintage, df_issue, df_retirement_cancellation, column_list, start_year, end_year)
 
 # filter data
 q_expression = "Year >= 2016"
@@ -45,6 +45,7 @@ df_issue = df_issue.query(q_expression)
 df_retirement_cancellation = df_retirement_cancellation.query(q_expression)
 
 # export data as csv files
+df_project.to_csv("data/project.csv")
 df_vintage.to_csv("data/vintage.csv")
 df_issue.to_csv("data/issue.csv") 
 df_retirement_cancellation.to_csv("data/retirement_cancellation.csv") 
