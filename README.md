@@ -37,7 +37,8 @@ Both input and output are stored in the folder "data"
 # Data visualization
 Data visualization is conducted using Power BI Desktop.
 
-The latest draft is the file "dashboard/carbon_market_dashboard_draft_1.pbix"
+The latest draft is the file
+[dashboard/carbon_market_dashboard_draft_1.pbix](https://github.com/YuHsiangHuangSean/Voluntary-Carbon-Market-Dashboard/blob/PowerBI/dashboard/carbon_market_dashboard_draft_1.pbix)
 
 # Dashboard screenshots
 How are carbon credits generated - 2:
