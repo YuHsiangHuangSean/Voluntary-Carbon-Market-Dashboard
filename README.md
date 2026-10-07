@@ -21,7 +21,7 @@ During my thesis research, I found that everyone has an opinion about it ("It's 
 Where are carbon projects taking place? How are carbon credits generated? Who issue these credits?
 
 # Data source
-Voluntary Registry Offsets Database by UC Berkeley (https://gspp.berkeley.edu/berkeley-carbon-trading-project/offsets-database).
+[Voluntary Registry Offsets Database by UC Berkeley](https://gspp.berkeley.edu/berkeley-carbon-trading-project/offsets-database)
 
 The current scope of this analysis is projects that issued credits between 2016 and 2025, verified by one of the four major carbon standards (Verra, Gold Standard, ACR, CAR).
 
