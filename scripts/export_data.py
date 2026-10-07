@@ -38,6 +38,12 @@ df_vintage = structure_data(df_vintage, column_list)
 df_issue = structure_data(df_issue, column_list)
 df_retirement_cancellation = structure_data(df_retirement_cancellation, column_list)
 
+# filter data
+q_expression = "Year >= 2016"
+df_vintage = df_vintage.query(q_expression)
+df_issue = df_issue.query(q_expression)
+df_retirement_cancellation = df_retirement_cancellation.query(q_expression)
+
 # export data as csv files
 df_vintage.to_csv("data/vintage.csv")
 df_issue.to_csv("data/issue.csv") 
