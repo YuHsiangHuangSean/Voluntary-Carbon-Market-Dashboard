@@ -1,4 +1,4 @@
-# Voluntary-Carbon-Market-Dashboard - working progress
+# Voluntary-Carbon-Market-Dashboard - work in progress
 
 # Project overview
 Explaining voluntary carbon market in 5 Minutes
@@ -24,7 +24,7 @@ Voluntary Registry Offsets Database by UC Berkeley (https://gspp.berkeley.edu/be
 The current scope of this analysis is projects that issued credits between 2016 and 2025, verified by one of the four major carbon standards (Verra, Gold Standard, ACR, CAR).
 
 # Data cleaning and transformation
-Data cleaning and transformation are conducted using Python. Scripts are stored in the folder "scripts".
+Data cleaning and transformation are conducted using Python. Scripts are stored in the folder "scripts". export_data.py is the main script that executes the cleaning and transformation process.
 
 The input is an Excel file listing 11000+ projects with 70+ columns.
 
