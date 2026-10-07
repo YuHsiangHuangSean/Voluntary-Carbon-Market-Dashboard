@@ -1,5 +1,7 @@
 # Voluntary-Carbon-Market-Dashboard - work in progress
 
+[Latest progress →](https://github.com/YuHsiangHuangSean/Voluntary-Carbon-Market-Dashboard/blob/PowerBI/dashboard/carbon_market_dashboard_draft_1.pbix)
+
 # Project overview
 Explaining voluntary carbon market in 5 Minutes
 
