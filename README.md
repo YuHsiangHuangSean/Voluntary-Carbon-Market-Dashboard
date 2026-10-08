@@ -20,7 +20,7 @@ Project developers reduce/remove carbon. Carbon standards verify projects and is
 
 During my thesis research, I found that everyone has an opinion about it ("It's a critical solution to climate change!", "It's a scam!"), but there is limted information that explains what voluntary carbon market is and what its current state is. By analyzing and visualizing publicly available data, this project aims to provide an overview of voluntary carbon market and answer questions like:
 
-Where are carbon projects taking place? How are carbon credits generated? Who issue these credits?
+Where are carbon projects taking place? How are carbon credits generated? Who issues these credits?
 
 # Data source
 [Voluntary Registry Offsets Database by UC Berkeley](https://gspp.berkeley.edu/berkeley-carbon-trading-project/offsets-database)
@@ -47,14 +47,14 @@ How are carbon credits generated - 2:
 
 <img width="673" height="377" alt="image" src="https://github.com/user-attachments/assets/f932686b-8044-44ab-92b9-65818ec24f6c" />
 
-Who issue carbon credits:
+Who issues carbon credits:
 
-<img width="671" height="377" alt="image" src="https://github.com/user-attachments/assets/0d929762-86f7-4e2c-a501-f1886a874193" />
+<img width="613" height="346" alt="image" src="https://github.com/user-attachments/assets/c87cbc50-3bd7-4554-838e-5db12b7f37cf" />
 
 # Key insights
 1. Forestry projects in Latin America used to be popular. Since 2023, this is no longer the case.
 
-2. Cookstove projects in Sub-Saharan Africa represent a promising area for future growth, based on the volume of issued credits in recent years.
+2. Cookstove projects in Sub-Saharan Africa represent a promising area for future growth. Gold Standard has established an early lead over other standards in this market.
 
 # Next steps
 1. Include the entire life cycle of carbon credits, from reducing/removing carbon, issuing credits, to retiring(using) credits.
