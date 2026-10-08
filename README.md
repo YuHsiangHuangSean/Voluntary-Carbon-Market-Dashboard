@@ -57,8 +57,10 @@ Who issues carbon credits:
 2. Cookstove projects in Sub-Saharan Africa represent a promising area for future growth. Gold Standard has established an early lead over other standards in this market.
 
 # Next steps
-1. Include the entire life cycle of carbon credits, from reducing/removing carbon, issuing credits, to retiring(using) credits.
+1. Include the incomplete 2026 data to produce up-to-date outcome
+   
+2. Include the entire life cycle of carbon credits, from reducing/removing carbon, issuing credits, to retiring(using) credits.
 
-2. Include recent regulatory trends like the usage of additional certification labels
+3. Include recent regulatory trends like the usage of additional certification labels
 
-3. Combine data with my thesis findings to produce more insights
+4. Combine data with my thesis findings to produce more insights
