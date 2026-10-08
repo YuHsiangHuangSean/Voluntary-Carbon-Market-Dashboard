@@ -2,6 +2,8 @@
 
 [Latest progress →](https://github.com/YuHsiangHuangSean/Voluntary-Carbon-Market-Dashboard/blob/PowerBI/dashboard/carbon_market_dashboard_draft_1.pbix)
 
+Updated with newly released data through August 2026.
+
 # Project overview
 #Data cleaning #ETL #Data visualization #Python #Power BI
 
@@ -23,9 +25,9 @@ During my thesis research, I found that everyone has an opinion about it ("It's 
 Where are carbon projects taking place? How are carbon credits generated? Who issues these credits?
 
 # Data source
-[Voluntary Registry Offsets Database by UC Berkeley](https://gspp.berkeley.edu/berkeley-carbon-trading-project/offsets-database)
+Pamela Quartson, Barbara K Haya, Tyler Bernard, Aline Abayo, Xinyun Rong, Ivy S So, Micah Elias. (2026). Voluntary Registry Offsets Database v2026-08, Berkeley Carbon Trading Project, University of California, Berkeley. Retrieved from: [https://gspp.berkeley.edu/berkeley-carbon-trading-project/offsets-database](https://gspp.berkeley.edu/berkeley-carbon-trading-project/offsets-database).
 
-The current scope of this analysis is projects that issued credits between 2016 and 2025, verified by one of the four major carbon standards (Verra, Gold Standard, ACR, CAR).
+The current scope of this analysis is projects that issued credits between Jan 2016 and Aug 2026, verified by one of the four major carbon standards (Verra, Gold Standard, ACR, CAR).
 
 # Data cleaning and transformation
 Data cleaning and transformation are conducted using Python. Scripts are stored in the folder "scripts". export_data.py is the main script that executes the cleaning and transformation process.
@@ -45,11 +47,11 @@ The latest draft is the file
 # Dashboard screenshots
 How are carbon credits generated - 2:
 
-<img width="673" height="377" alt="image" src="https://github.com/user-attachments/assets/f932686b-8044-44ab-92b9-65818ec24f6c" />
+<img width="1228" height="687" alt="image" src="https://github.com/user-attachments/assets/05085765-7052-4587-bf4f-f2de283ff37d" />
 
 Who issues carbon credits:
 
-<img width="613" height="346" alt="image" src="https://github.com/user-attachments/assets/c87cbc50-3bd7-4554-838e-5db12b7f37cf" />
+<img width="1226" height="685" alt="image" src="https://github.com/user-attachments/assets/42c26c11-4286-4acc-b4b7-de2a0ac199c0" />
 
 # Key insights
 1. Forestry projects in Latin America used to be popular. Since 2023, this is no longer the case.
@@ -57,10 +59,8 @@ Who issues carbon credits:
 2. Cookstove projects in Sub-Saharan Africa represent a promising area for future growth. Gold Standard has established an early lead over other standards in this market.
 
 # Next steps
-1. Include the incomplete 2026 data to produce up-to-date outcome
-   
-2. Include the entire life cycle of carbon credits, from reducing/removing carbon, issuing credits, to retiring(using) credits.
+1. Include the entire life cycle of carbon credits, from reducing/removing carbon, issuing credits, to retiring(using) credits.
 
-3. Include recent regulatory trends like the usage of additional certification labels
+2. Include recent regulatory trends like the usage of additional certification labels
 
-4. Combine data with my thesis findings to produce more insights
+3. Combine data with my thesis findings to produce more insights
