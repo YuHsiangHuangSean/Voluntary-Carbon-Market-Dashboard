@@ -3,7 +3,9 @@
 [Latest progress →](https://github.com/YuHsiangHuangSean/Voluntary-Carbon-Market-Dashboard/blob/PowerBI/dashboard/carbon_market_dashboard_draft_1.pbix)
 
 # Project overview
-Explaining voluntary carbon market in 5 Minutes
+#Data cleaning #ETL #Data visualization #Python #Power BI
+
+Cleaned, transformed, and analyzed complex carbon project data to visualize market trends and insights using Python and Power BI
 
 # Problem context
 1. What is voluntary carbon market?
