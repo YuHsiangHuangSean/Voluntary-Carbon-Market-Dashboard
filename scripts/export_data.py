@@ -9,7 +9,7 @@ from structure_data import structure_data
 t0 = datetime.now()
 
 # get data
-file_name = "Voluntary-Registry-Offsets-Database--v2026-06.xlsx"
+file_name = "Voluntary-Registry-Offsets-Database--v2026-08.xlsx"
 path = "data/" + file_name
 df = get_data(path)
 
@@ -39,7 +39,7 @@ df_vintage, df_issue, df_retirement_cancellation = clean_data(df, column_list, s
 df_project, df_vintage, df_issue, df_retirement_cancellation = structure_data(df_vintage, df_issue, df_retirement_cancellation, column_list, start_year, end_year)
 
 # filter data
-q_expression = "Year >= 2016 & Year <= 2025"
+q_expression = "Year >= 2016"
 df_vintage = df_vintage.query(q_expression)
 df_issue = df_issue.query(q_expression)
 df_retirement_cancellation = df_retirement_cancellation.query(q_expression)
