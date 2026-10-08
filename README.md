@@ -28,9 +28,9 @@ The current scope of this analysis is projects that issued credits between 2016 
 # Data cleaning and transformation
 Data cleaning and transformation are conducted using Python. Scripts are stored in the folder "scripts". export_data.py is the main script that executes the cleaning and transformation process.
 
-The input is an Excel file listing 11000+ projects with 70+ columns.
+The input is an Excel file with 70+ columns, listing 11000+ projects.
 
-The output is a project table as a csv file with 14 columns, and a credit issuance record table with 4 columns.
+The output is four csv files: one project table with 14 columns listing project details, and three tables with 4 columns each that list records of carbon reduced/removed, credits issued, and credits retired (used) respectively. Right now only the project table and issuance table are visualized
 
 Both input and output are stored in the folder "data"
 
@@ -58,3 +58,5 @@ Who issue carbon credits:
 1. Include the entire life cycle of carbon credits, from reducing/removing carbon, issuing credits, to retiring(using) credits.
 
 2. Include recent regulatory trends like the usage of additional certification labels
+
+3. Combine data with my thesis findings to produce more insights
