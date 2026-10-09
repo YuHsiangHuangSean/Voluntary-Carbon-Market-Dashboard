@@ -47,20 +47,22 @@ The latest draft is the file
 # Dashboard screenshots
 How are carbon credits generated - 2:
 
-<img width="1228" height="687" alt="image" src="https://github.com/user-attachments/assets/05085765-7052-4587-bf4f-f2de283ff37d" />
+<img width="600" height="334" alt="image" src="https://github.com/user-attachments/assets/b59ac88d-5b06-47de-bf5d-d7430fd9b608" />
 
 Who issues carbon credits:
 
-<img width="1226" height="685" alt="image" src="https://github.com/user-attachments/assets/42c26c11-4286-4acc-b4b7-de2a0ac199c0" />
+<img width="600" height="337" alt="image" src="https://github.com/user-attachments/assets/51336aa2-6d83-4afb-bc8c-4abad25bc146" />
+
+<img width="600" height="336" alt="image" src="https://github.com/user-attachments/assets/4c65cace-ac23-4745-93f2-64aa43af1118" />
 
 # Key insights
 1. Forestry projects in Latin America used to be popular. Since 2023, this is no longer the case.
 
 2. Cookstove projects in Sub-Saharan Africa represent a promising area for future growth. Gold Standard has established an early lead over other standards in this market.
 
+3. The [growing media and academic scrutiny](https://www.theguardian.com/environment/2023/jan/18/revealed-forest-carbon-offsets-biggest-provider-worthless-verra-aoe) since the early 2020s has led to a shift in focus from credit quantity to quality, supported by the increasing usage of additional certification labels like ICVCM CCP, Article 6, and CORSIA.
+
 # Next steps
 1. Include the entire life cycle of carbon credits, from reducing/removing carbon, issuing credits, to retiring(using) credits.
 
-2. Include recent regulatory trends like the usage of additional certification labels
-
-3. Combine data with my thesis findings to produce more insights
+2. Combine data with my thesis findings to produce more insights
