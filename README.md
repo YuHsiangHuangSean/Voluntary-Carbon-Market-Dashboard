@@ -22,7 +22,7 @@ Project developers reduce/remove carbon. Carbon standards verify projects and is
 
 During my thesis research, I found that everyone has an opinion about it ("It's a critical solution to climate change!", "It's a scam!"), but there is limted information that explains what voluntary carbon market is and what its current state is. By analyzing and visualizing publicly available data, this project aims to provide an overview of voluntary carbon market and answer questions like:
 
-Where are carbon projects taking place? How are carbon credits generated? Who issues these credits?
+Where are carbon projects taking place? How are carbon credits generated? Who issues these credits? How stakeholders ensure credit quality?
 
 # Data source
 Pamela Quartson, Barbara K Haya, Tyler Bernard, Aline Abayo, Xinyun Rong, Ivy S So, Micah Elias. (2026). Voluntary Registry Offsets Database v2026-08, Berkeley Carbon Trading Project, University of California, Berkeley. Retrieved from: [https://gspp.berkeley.edu/berkeley-carbon-trading-project/offsets-database](https://gspp.berkeley.edu/berkeley-carbon-trading-project/offsets-database).
@@ -52,6 +52,8 @@ How are carbon credits generated - 2:
 Who issues carbon credits:
 
 <img width="600" height="337" alt="image" src="https://github.com/user-attachments/assets/51336aa2-6d83-4afb-bc8c-4abad25bc146" />
+
+How stakeholders ensure credit quality:
 
 <img width="600" height="336" alt="image" src="https://github.com/user-attachments/assets/4c65cace-ac23-4745-93f2-64aa43af1118" />
 
