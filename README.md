@@ -20,9 +20,9 @@ Project developers reduce/remove carbon. Carbon standards verify projects and is
 
 3. How is this project useful?
 
-During my thesis research, I found that everyone has an opinion about it ("It's a critical solution to climate change!", "It's a scam!"), but there is limted information that explains what voluntary carbon market is and what its current state is. By analyzing and visualizing publicly available data, this project aims to provide an overview of voluntary carbon market and answer questions like:
+During my thesis research, I found that everyone has an opinion about it ("It's a critical solution to climate change!", "It's a scam!"), but there is limted information that explains clearly what voluntary carbon market is and what its current state is. By analyzing and visualizing publicly available data, this project aims to provide an overview of voluntary carbon market and answer questions like:
 
-Where are carbon projects taking place? How are carbon credits generated? Who issues these credits? How stakeholders ensure credit quality?
+Where are carbon projects taking place? How are carbon credits generated? Who issues these credits? How do stakeholders ensure credit quality?
 
 # Data source
 Pamela Quartson, Barbara K Haya, Tyler Bernard, Aline Abayo, Xinyun Rong, Ivy S So, Micah Elias. (2026). Voluntary Registry Offsets Database v2026-08, Berkeley Carbon Trading Project, University of California, Berkeley. Retrieved from: [https://gspp.berkeley.edu/berkeley-carbon-trading-project/offsets-database](https://gspp.berkeley.edu/berkeley-carbon-trading-project/offsets-database).
@@ -34,7 +34,7 @@ Data cleaning and transformation are conducted using Python. Scripts are stored 
 
 The input is an Excel file with 70+ columns, listing 11000+ projects.
 
-The output is four csv files: one project table with 14 columns listing project details, and three tables with 4 columns each that list records of carbon reduced/removed, credits issued, and credits retired (used) respectively. Right now only the project table and issuance table are visualized
+The output is two csv files: one project table with 14 columns listing project details, and one record table with 4 columns listing records of credit issuance and retirement (usage).
 
 Both input and output are stored in the folder "data"
 
@@ -45,7 +45,7 @@ The latest draft is the file
 [dashboard/carbon_market_dashboard_draft_1.pbix](https://github.com/YuHsiangHuangSean/Voluntary-Carbon-Market-Dashboard/blob/PowerBI/dashboard/carbon_market_dashboard_draft_1.pbix)
 
 # Dashboard screenshots
-How are carbon credits generated - 2:
+HHow are carbon credits generated - 2:
 
 <img width="600" height="334" alt="image" src="https://github.com/user-attachments/assets/b59ac88d-5b06-47de-bf5d-d7430fd9b608" />
 
@@ -65,6 +65,6 @@ How stakeholders ensure credit quality:
 3. The [growing media and academic scrutiny](https://www.theguardian.com/environment/2023/jan/18/revealed-forest-carbon-offsets-biggest-provider-worthless-verra-aoe) since the early 2020s has led to a shift in focus from credit quantity to quality, supported by the increasing usage of additional certification labels like ICVCM CCP, Article 6, and CORSIA.
 
 # Next steps
-1. Include the entire life cycle of carbon credits, from reducing/removing carbon, issuing credits, to retiring(using) credits.
+1. Include remaining credits (issued but not used) to provide insights on supply-demand dynamics
 
 2. Combine data with my thesis findings to produce more insights

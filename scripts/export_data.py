@@ -33,22 +33,18 @@ column_list = [
 start_year = 1996
 end_year = 2026
 
-df_vintage, df_issue, df_retirement_cancellation = clean_data(df, column_list, start_year, end_year)
+df_issue, df_retirement_cancellation = clean_data(df, column_list, start_year, end_year)
 
 # structure data
-df_project, df_vintage, df_issue, df_retirement_cancellation = structure_data(df_vintage, df_issue, df_retirement_cancellation, column_list, start_year, end_year)
+df_project, df_record = structure_data(df_issue, df_retirement_cancellation, column_list, start_year, end_year)
 
 # filter data
 q_expression = "Year >= 2016"
-df_vintage = df_vintage.query(q_expression)
-df_issue = df_issue.query(q_expression)
-df_retirement_cancellation = df_retirement_cancellation.query(q_expression)
+df_record = df_record.query(q_expression)
 
 # export data as csv files
 df_project.to_csv("data/project.csv")
-df_vintage.to_csv("data/vintage.csv")
-df_issue.to_csv("data/issue.csv") 
-df_retirement_cancellation.to_csv("data/retirement_cancellation.csv") 
+df_record.to_csv("data/record.csv") 
 
 # record end time and display total process time
 t1 = datetime.now()

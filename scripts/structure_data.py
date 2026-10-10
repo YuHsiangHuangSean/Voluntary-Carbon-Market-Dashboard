@@ -1,16 +1,15 @@
 import pandas as pd
 
 # structure data
-def structure_data(df_vintage, df_issue, df_retirement_cancellation, column_list, start_year, end_year):
+def structure_data(df_issue, df_retirement_cancellation, column_list, start_year, end_year):
 
-    output_dfs = []
+    unmerged_df_list = []
 
     # create a project dataframe
     df_project = df_issue[column_list]
-    output_dfs.append(df_project)
 
     # restructure dataframes by year
-    for df in (df_vintage, df_issue, df_retirement_cancellation):
+    for df in (df_issue, df_retirement_cancellation):
 
         # drop columns already saved in the project dataframe
         year_list = range(start_year, end_year+1)
@@ -23,17 +22,26 @@ def structure_data(df_vintage, df_issue, df_retirement_cancellation, column_list
             value_name = "Quantity"
         )
 
-        # reset index and use it to create a primary key column
-        df = df.reset_index(drop=True)
-        df["Record ID"] = df.index+1
+        # save restructured dataframe to a list
+        unmerged_df_list.append(df)      
 
-        # drop rows with zero quantity
-        df = df[df["Quantity"] != 0]
+    # rename quantity columns
+    column_names = ["Issuance", "Retirement/cancellation"]
+    for i in range(2):
+        unmerged_df_list[i] = unmerged_df_list[i].rename(columns = {"Quantity": column_names[i]})
 
-        # format year column
-        df["Year"] = df["Year"].astype("int64")
+    # join dataframes
+    df_record = pd.merge(unmerged_df_list[0], unmerged_df_list[1], how='outer', on = ["Project ID", "Year"])
 
-        # export dataframes
-        output_dfs.append(df)
+    # test
+    #print(df_record.info())
+    #print("")
+    #print(df_record.describe(include="object"))
+
+    # drop rows with zero issuance, retirement/cancellation, and remaining
+    df_record = df_record[(df_record["Issuance"] != 0) | (df_record["Retirement/cancellation"] != 0)]
+
+    # format year column
+    df_record["Year"] = df_record["Year"].astype("int64")
     
-    return output_dfs
+    return df_project, df_record
