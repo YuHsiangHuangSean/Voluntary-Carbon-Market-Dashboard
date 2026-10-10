@@ -34,7 +34,7 @@ Data cleaning and transformation are conducted using Python. Scripts are stored 
 
 The input is an Excel file with 70+ columns, listing 11000+ projects.
 
-The output is four csv files: one project table with 14 columns listing project details, and three tables with 4 columns each that list records of carbon reduced/removed, credits issued, and credits retired (used) respectively. Right now only the project table and issuance table are visualized
+The output is three csv files: one project table with 14 columns listing project details, and two tables with 4 columns each that list records of credit issuance, and credit retirement (usage) respectively.
 
 Both input and output are stored in the folder "data"
 
@@ -59,8 +59,4 @@ Who issues carbon credits:
 2. Cookstove projects in Sub-Saharan Africa represent a promising area for future growth. Gold Standard has established an early lead over other standards in this market.
 
 # Next steps
-1. Include the entire life cycle of carbon credits, from reducing/removing carbon, issuing credits, to retiring(using) credits.
-
-2. Include recent regulatory trends like the usage of additional certification labels
-
-3. Combine data with my thesis findings to produce more insights
+1. Combine data with my thesis findings to produce more insights

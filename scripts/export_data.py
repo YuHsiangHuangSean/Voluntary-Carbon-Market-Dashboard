@@ -40,13 +40,13 @@ df_project, df_vintage, df_issue, df_retirement_cancellation = structure_data(df
 
 # filter data
 q_expression = "Year >= 2016"
-df_vintage = df_vintage.query(q_expression)
+#df_vintage = df_vintage.query(q_expression)
 df_issue = df_issue.query(q_expression)
 df_retirement_cancellation = df_retirement_cancellation.query(q_expression)
 
 # export data as csv files
 df_project.to_csv("data/project.csv")
-df_vintage.to_csv("data/vintage.csv")
+#df_vintage.to_csv("data/vintage.csv")
 df_issue.to_csv("data/issue.csv") 
 df_retirement_cancellation.to_csv("data/retirement_cancellation.csv") 
 
