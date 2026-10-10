@@ -59,4 +59,6 @@ Who issues carbon credits:
 2. Cookstove projects in Sub-Saharan Africa represent a promising area for future growth. Gold Standard has established an early lead over other standards in this market.
 
 # Next steps
-1. Combine data with my thesis findings to produce more insights
+1. Include remaining credits (issued but not used) to provide insights on supply-demand dynamics
+
+2. Combine data with my thesis findings to produce more insights
