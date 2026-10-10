@@ -34,9 +34,6 @@ def clean_data(df, column_list, start_year, end_year):
             case=False,
             na=False
         )
-    
-    # create dataframe for vintage years
-    df_vintage = df[column_list + [year for year in year_list]]
 
     # create dataframe for issue years
     # Verra may issue credits for the same projects in multiple batches. In the raw data, it is assumed that Verra issues all credits in the first batch
@@ -60,4 +57,4 @@ def clean_data(df, column_list, start_year, end_year):
     df_retirement_cancellation = df_retirement_cancellation.rename(columns = columns)
 
     # export data
-    return df_vintage, df_issue, df_retirement_cancellation
+    return df_issue, df_retirement_cancellation

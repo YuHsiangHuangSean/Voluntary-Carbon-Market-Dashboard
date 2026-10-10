@@ -22,7 +22,7 @@ Project developers reduce/remove carbon. Carbon standards verify projects and is
 
 During my thesis research, I found that everyone has an opinion about it ("It's a critical solution to climate change!", "It's a scam!"), but there is limted information that explains what voluntary carbon market is and what its current state is. By analyzing and visualizing publicly available data, this project aims to provide an overview of voluntary carbon market and answer questions like:
 
-Where are carbon projects taking place? How are carbon credits generated? Who issues these credits?
+Where are carbon projects taking place? How are carbon credits generated? Who issues these credits? How do stakeholders ensure credit quality?
 
 # Data source
 Pamela Quartson, Barbara K Haya, Tyler Bernard, Aline Abayo, Xinyun Rong, Ivy S So, Micah Elias. (2026). Voluntary Registry Offsets Database v2026-08, Berkeley Carbon Trading Project, University of California, Berkeley. Retrieved from: [https://gspp.berkeley.edu/berkeley-carbon-trading-project/offsets-database](https://gspp.berkeley.edu/berkeley-carbon-trading-project/offsets-database).
@@ -34,7 +34,7 @@ Data cleaning and transformation are conducted using Python. Scripts are stored 
 
 The input is an Excel file with 70+ columns, listing 11000+ projects.
 
-The output is three csv files: one project table with 14 columns listing project details, and two tables with 4 columns each that list records of credit issuance, and credit retirement (usage) respectively.
+The output is two csv files: one project table with 14 columns listing project details, and one record table with 4 columns listing records of credit issuance and retirement (usage).
 
 Both input and output are stored in the folder "data"
 
@@ -45,13 +45,17 @@ The latest draft is the file
 [dashboard/carbon_market_dashboard_draft_1.pbix](https://github.com/YuHsiangHuangSean/Voluntary-Carbon-Market-Dashboard/blob/PowerBI/dashboard/carbon_market_dashboard_draft_1.pbix)
 
 # Dashboard screenshots
-How are carbon credits generated - 2:
+HHow are carbon credits generated - 2:
 
-<img width="1228" height="687" alt="image" src="https://github.com/user-attachments/assets/05085765-7052-4587-bf4f-f2de283ff37d" />
+<img width="600" height="334" alt="image" src="https://github.com/user-attachments/assets/b59ac88d-5b06-47de-bf5d-d7430fd9b608" />
 
 Who issues carbon credits:
 
-<img width="1226" height="685" alt="image" src="https://github.com/user-attachments/assets/42c26c11-4286-4acc-b4b7-de2a0ac199c0" />
+<img width="600" height="337" alt="image" src="https://github.com/user-attachments/assets/51336aa2-6d83-4afb-bc8c-4abad25bc146" />
+
+How stakeholders ensure credit quality:
+
+<img width="600" height="336" alt="image" src="https://github.com/user-attachments/assets/4c65cace-ac23-4745-93f2-64aa43af1118" />
 
 # Key insights
 1. Forestry projects in Latin America used to be popular. Since 2023, this is no longer the case.
