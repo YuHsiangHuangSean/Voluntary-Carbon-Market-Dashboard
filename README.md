@@ -50,7 +50,10 @@ Huang, Y.H. (2026). Rebuilding legitimacy: Interaction dynamics of natural clima
 
 Pamela Quartson, Barbara K Haya, Tyler Bernard, Aline Abayo, Xinyun Rong, Ivy S So, Micah Elias. (2026). Voluntary Registry Offsets Database v2026-08, Berkeley Carbon Trading Project, University of California, Berkeley. Retrieved from: [https://gspp.berkeley.edu/berkeley-carbon-trading-project/offsets-database](https://gspp.berkeley.edu/berkeley-carbon-trading-project/offsets-database).
 
-The current scope of this analysis is projects that issued credits between Jan 2016 and Aug 2026, verified by one of the four major carbon standards (Verra, Gold Standard, ACR, CAR).
+The current scope of this analysis is projects that issued or retired credits between Jan 2016 and Aug 2026, verified by one of the four major carbon standards (Verra, Gold Standard, ACR, CAR).
+
+The current scope of this analysis is projects that issued or retired credits between Jan 2016 and Aug 2026, verified by one of the four major carbon standards (Verra, Gold Standard, ACR, CAR). There are other carbon standards, but these four already account for ~89% of the transaction volume in 2024. ([https://www.ecosystemmarketplace.com/publications/2025-state-of-the-voluntary-carbon-market-sovcm/](https://www.ecosystemmarketplace.com/publications/2025-state-of-the-voluntary-carbon-market-sovcm/))
+
 
 # Data cleaning and transformation
 Data cleaning and transformation are conducted using Python. Scripts are stored in the folder "scripts". export_data.py is the main script that executes the cleaning and transformation process.
