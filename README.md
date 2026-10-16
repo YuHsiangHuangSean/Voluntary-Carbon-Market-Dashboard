@@ -1,6 +1,6 @@
 # “Explain the Voluntary Carbon Market in 10 Minutes“ Dashboard
 
-[Key insights →](https://github.com/YuHsiangHuangSean/Voluntary-Carbon-Market-Dashboard/edit/main/README.md#key-insights)
+[Key insights →](https://github.com/YuHsiangHuangSean/Voluntary-Carbon-Market-Dashboard/tree/main#key-insights)
 
 [Interactive dashboard (pbix, Power BI Desktop/Service needed) →](https://github.com/YuHsiangHuangSean/Voluntary-Carbon-Market-Dashboard/blob/main/dashboard/voluntary_carbon_market_dashboard.pbix)
 
