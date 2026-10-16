@@ -1,5 +1,7 @@
 # “Explain the Voluntary Carbon Market in 10 Minutes“ Dashboard
 
+[Key insights →](https://github.com/YuHsiangHuangSean/Voluntary-Carbon-Market-Dashboard/edit/main/README.md#key-insights)
+
 [Interactive dashboard (pbix, Power BI Desktop/Service needed) →](https://github.com/YuHsiangHuangSean/Voluntary-Carbon-Market-Dashboard/blob/main/dashboard/voluntary_carbon_market_dashboard.pbix)
 
 [Static dashboard (PDF) →](https://github.com/YuHsiangHuangSean/Voluntary-Carbon-Market-Dashboard/blob/main/dashboard/voluntary_carbon_market_dashboard.pdf)
@@ -13,7 +15,7 @@ Updated with newly released data through August 2026.
 
 Purpose:
 
-Explain the voluntary carbon market and identify future developments.
+Explain the voluntary carbon market and identify its challenge, trend, and future developments.
 
 Method:
 
@@ -41,9 +43,10 @@ By analyzing and visualizing publicly available data and combining them with my 
 - Where are carbon projects taking place?
 - How are carbon credits generated?
 - Who issues them?
-- What are the key challenges facing the market?
-- How has the market evolved over time?
-- Which parts of the market are growing or declining?
+- What is the key challenge facing the market?
+- What is the overall trend over the years?
+- Which parts of the market are growing?
+- What are the future developments?
 
 # Data source
 1. MSc thesis:
@@ -76,7 +79,7 @@ The outcome is the following files in "dashboard":
 [Static dashboard (PDF) →](https://github.com/YuHsiangHuangSean/Voluntary-Carbon-Market-Dashboard/blob/main/dashboard/voluntary_carbon_market_dashboard.pdf)
 
 # Dashboard screenshots
-How are carbon credits generated :
+How are carbon credits generated:
 
 <img width="600" height="338" alt="image" src="https://github.com/user-attachments/assets/113dd452-57f8-4e9e-9217-96582fe684e3" />
 
