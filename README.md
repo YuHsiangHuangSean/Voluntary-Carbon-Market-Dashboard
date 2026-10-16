@@ -1,6 +1,9 @@
 # “Explain the Voluntary Carbon Market in 10 Minutes“ Dashboard
 
-[Latest progress →](https://github.com/YuHsiangHuangSean/Voluntary-Carbon-Market-Dashboard/blob/PowerBI/dashboard/carbon_market_dashboard_draft_1.pbix)
+[Master file (pbix) →](https://github.com/YuHsiangHuangSean/Voluntary-Carbon-Market-Dashboard/blob/PowerBI/dashboard/carbon_market_dashboard_draft_1.pbix)
+[Web version →]
+[Static version (PDF) →]
+[Concise version (LinkedIn post) →]
 
 Updated with newly released data through August 2026.
 
@@ -84,15 +87,18 @@ How stakeholders ensure credit quality:
 <img width="600" height="336" alt="image" src="https://github.com/user-attachments/assets/4c65cace-ac23-4745-93f2-64aa43af1118" />
 
 # Key insights
-1. Forestry projects in Latin America used to be popular. Since 2023, this is no longer the case.
+1. Forestry projects, including REDD+, in Latin America have lost momentum. Once a major source of credits, the segment has declined noticeably since 2023.
 
-2. Cookstove projects in Sub-Saharan Africa represent a promising area for future growth. Gold Standard has established an early lead over other standards in this market.
+2. Cookstove projects in Sub-Saharan Africa stand out as a potential growth segment. Gold Standard has established an early lead over other major standards in this area
 
-3. The [growing media and academic scrutiny](https://www.theguardian.com/environment/2023/jan/18/revealed-forest-carbon-offsets-biggest-provider-worthless-verra-aoe) since the early 2020s has led to a shift in focus from credit quantity to quality, supported by the increasing usage of additional certification labels like ICVCM CCP, Article 6, and CORSIA.
+3. The project quality controversies have driven a transition from quantity to quality. 
+
+4. Additional certification labels are supporting this transition. ICVCM-CCP-approved, Article-6-authorized, and CORSIA-eligible labels still represent a relatively small share of the market (particularly Article 6), but their presence is steadily growing.
+
+5. The transition from quantity to quality also coincides with a shift from voluntary to compliance-driven demand. While some major voluntary buyers are slowing their purchases, CORSIA is expected to bring more international airlines into the market as its coverage expands.
 
 # Next steps
-1. Combine data with my thesis findings to produce more insights
+
+1. Interviewee validaiton and feedback collection
 
 2. Publish dashboards
-
-3. Publish outcomes in a slide deck
