@@ -1,7 +1,6 @@
 # “Explain the Voluntary Carbon Market in 10 Minutes“ Dashboard
 
-[Master file (pbix) →](https://github.com/YuHsiangHuangSean/Voluntary-Carbon-Market-Dashboard/blob/PowerBI/dashboard/carbon_market_dashboard_draft_1.pbix)
-[Web version →]
+[Interactive dashboard (pbix) →](https://github.com/YuHsiangHuangSean/Voluntary-Carbon-Market-Dashboard/blob/main/dashboard/voluntary_carbon_market_dashboard.pbix)
 [Static version (PDF) →]
 [Concise version (LinkedIn post) →]
 
@@ -27,7 +26,7 @@ There are many ways to reduce carbon emissions or remove carbon from the atmosph
 
 2. How does the voluntary carbon market work?
 
-Project developers reduce/remove carbon. Carbon standards issue and track carbon credits after they are verified. Buyers purchase carbon credits and fund project developers in doing so.
+**Project developers** reduce/remove carbon. **Carbon standards** issue and track carbon credits after they are verified. **Buyers** purchase carbon credits and fund project developers in doing so.
 
 3. How is this project useful?
 
