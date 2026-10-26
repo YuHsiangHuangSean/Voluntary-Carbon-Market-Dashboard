@@ -6,7 +6,7 @@
 
 [Static dashboard (PDF) →](https://github.com/YuHsiangHuangSean/Voluntary-Carbon-Market-Dashboard/blob/main/dashboard/voluntary_carbon_market_dashboard.pdf)
 
-[Concise version (Stay tuned!)]
+[Concise version (LinkedIn post) →](https://lnkd.in/p/e-QdYPeZ)
 
 Updated with newly released data through August 2026.
 
